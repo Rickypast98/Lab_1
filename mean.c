@@ -8,5 +8,5 @@
 #include "mean.h"
 
 float mean (int a, int b) {
-    return (a + b) / 2;
+    return (float) (a + b) / (float) 2;
 }
